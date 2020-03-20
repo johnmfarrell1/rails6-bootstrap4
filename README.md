@@ -27,11 +27,12 @@ Getting Started
 - Clone your repo: `git clone https://github.com/YOUR-USER/rails6-bootstrap4`
 - Setup the application
 
-```ruby
+```
 bundle exec bundle install
 yarn install
-rails db:create
-rails server
+bin/rails db:create
+bin/webpack-dev-server
+bin/rails server
 ```
 
 Once complete, point your browser to http://localhost:3000 to view the application.
