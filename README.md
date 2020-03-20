@@ -18,7 +18,7 @@ This application can be used as a starting position to quickly create new Rails 
 
 Screenshots
 --------
-![Welcome Screenshot](https://raw.githubusercontent.com/johnmfarrell1/rails4-bootstrap6/master/screenshots/welcome_screenshot.png)
+![Welcome Screenshot](https://raw.githubusercontent.com/johnmfarrell1/rails6-bootstrap4/master/screenshots/welcome_screenshot.png)
 
 Getting Started
 ---
