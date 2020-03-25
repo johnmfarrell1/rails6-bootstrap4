@@ -2,7 +2,7 @@ Rails 6 - Bootstrap 4
 ========
 
 Blank Rails 6.0.2 example application that integrates Rails and Bootstrap 4.0 via Webpacker.
-Bundled with [High Voltage](https://github.com/thoughtbot/high_voltage) also for easy static page generation.
+Bundled with [High Voltage](https://github.com/thoughtbot/high_voltage) also for easy static page generation and [Bootswatch](https://bootswatch.com/) for flexible look and feel.
 
 #### Rails
 Ruby on Rails, or Rails, is a server-side web application framework written in Ruby under the MIT License. 
@@ -18,7 +18,9 @@ This application can be used as a starting position to quickly create new Rails 
 
 Screenshots
 --------
-![Welcome Screenshot](https://raw.githubusercontent.com/johnmfarrell1/rails6-bootstrap4/master/screenshots/welcome_screenshot.png)
+![Welcome Screenshot](https://raw.githubusercontent.com/johnmfarrell1/rails6-bootstrap4/master/screenshots/default_screenshot.png)
+![Sketchy Screenshot](https://raw.githubusercontent.com/johnmfarrell1/rails6-bootstrap4/master/screenshots/sketchy_screenshot.png)
+![Darkly Screenshot](https://raw.githubusercontent.com/johnmfarrell1/rails6-bootstrap4/master/screenshots/darkly_screenshot.png)
 
 Getting Started
 ---
@@ -37,6 +39,9 @@ bin/rails server
 
 Once complete, point your browser to http://localhost:3000 to view the application.
 
+Its possible to swap look and feel by replacing the theme name in `/app/javascript/stylesheets/application.scss`.
+Visit [Bootswatch](https://bootswatch.com/) for possible theme names.
+
 ## Development
 Bootstrap 4 was enabled via the [following steps](https://gist.github.com/bazzel/2c64e2e5804077f9a61938a93ed54823).
 After checking out the repo and running over the installation steps, you can run `rails test` to run the tests via the web container. 
@@ -48,4 +53,4 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/johnmf
 
 ## License
 
-The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+The project is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
